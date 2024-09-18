@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Resume CV</title>
+    <link rel="stylesheet" href="static/css/style.css">
+    <link rel="stylesheet" href="static/css/media-requses.css">
+    <style>
+        body {
+            background-image: url(static/images/background.jpg);
+        }
+    </style>
+
+    <link rel="apple-touch-icon" sizes="180x180" href="static/images/favicon/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="static/images/favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="static/images/favicon/favicon-16x16.png">
+    <link rel="manifest" href="static/images/favicon/site.webmanifest">
+</head>
+
+<body>
+    <div class="main-container">
+        <div class="left-bar"></div>
+        <div class="content">
+            <header>
+                <div class="drop">
+                    <button class="nav-button">&#9776;</button>
+                    <div class="links">
+                        <table>
+                            <tr>
+                                <td>mail.ru:</td>
+                                <td>trutnew_nikita@mail.ru</td>
+                            </tr>
+                            <tr>
+                                <td>telegram:</td>
+                                <td>@bs_surge</td>
+                            </tr>
+                        </table>
+                    </div>
+                </div>
+                <div class="title">
+                    <a href="/" style="color: #96D023;">Моё Резюме</a>
+                </div>
+                <div class="links">
+                    <table>
+                        <tr>
+                            <td>mail.ru</td>
+                            <td>trutnew_nikita@mail.ru</td>
+                        </tr>
+                        <tr>
+                            <td>telegram</td>
+                            <td>@bs_surge</td>
+                        </tr>
+                    </table>
+                </div>
+                <div class="header-profile-photo">
+                    <img src="static/images/me.png" alt="">
+                </div>
+            </header>
+            <section>
+                <div class="about">
+                    <div class="profile-photo">
+                        <img src="static/images/me.png" alt="">
+                    </div>
+                    <div class="description">
+                        <div class="title-description">
+                            <p>Никита Трутнев</p>
+                            <p>Python Backend Developer</p>
+                        </div>
+                        <div class="text-description">
+                            Начинающий Бэкэнд-разработчик. В качестве языка программирования использую Python. Пишу
+                            бэкенд и фронтенд в своих пет-проектах, которые выкладывают на github. Страстно интересуюсь
+                            информационными технологиями и тем, как они
+                            взаимодействуют друг с другом. Готов к коммуникации на английском языке. Активно посещаю
+                            сайты такие, как LeetCode и Codewars. Люблю изучать новые технологии, которые мне помогут в
+                            будущем с
+                            моими проектами
+                        </div>
+                    </div>
+                </div>
+                <div class="skills">
+                    <div class="description">
+                        <div class="title-description">
+                            Навыки
+                        </div>
+                        <div class="text-description">
+                            <p style="font-weight: 700;">Hard skills:</p>
+                            Python, HTML, CSS, SQL, PostgreSQL, Django, FastAPI, Linux, Git, Docker, Redis,
+                            Английский-B1
+                            <p style="font-weight: 700;">Soft skills:</p>
+                            Легко нахожу общий язык с другими людьми
+                        </div>
+                    </div>
+                    <div class="description-logo">
+                        <img src="static/images/python.png" alt="">
+                        <img src="static/images/django.png" alt="">
+                        <img src="static/images/postgres.png" alt="">
+                        <img src="static/images/html.png" alt="">
+                        <img src="static/images/css.png" alt="">
+                        <img src="static/images/docker.png" alt="">
+                    </div>
+                </div>
+                <div class="job">
+                    <div class="description">
+                        <div class="title-description">
+                            Опыт Работы
+                        </div>
+                        <div class="text-description">
+                            На данный момент опыт работы в коммерческих организациях отсутствует.
+                        </div>
+                    </div>
+                    <div class="worker">
+                        <img src="static/images/worker.png" alt="">
+                    </div>
+                </div>
+                <div class="education">
+                    <div class="description">
+                        <div class="title-description" style="margin: 0;">
+                            Образование
+                        </div>
+                        <div class="text-description">
+                            <p style="font-weight: 700;">Среднее образование</p>
+                            В 2019 году окончил МБОУ СОШ №2 им А.И. Исаевой в городе Нефтеюганск c золотой медалью.
+                            <div class="description-document">
+                                <img src="static/images/school-at1.jpg" alt="">
+                                <img src="static/images/school-at2.jpg" alt="">
+                                <img src="static/images/school-at3.jpg" alt="">
+                            </div>
+                        </div>
+                        <div class="text-description" style="margin-top: 12px;">
+                            <p style="font-weight: 700;">Высшее образование</p>
+                            В данный момент обучаюсь в ИАиС ВолгГТУ на очной форме обучения по специальности
+                            "Строительство
+                            уникальных зданий и сооружений". Срок обучения 01.09.2019-01.07.2025.
+                        </div>
+                    </div>
+                    <div class="education-logo">
+                        <img src="static/images/education.png" alt="">
+                    </div>
+                </div>
+            </section>
+            <footer>
+                Copyright &#xa9; booba-magistr 2024
+            </footer>
+        </div>
+        <div class="right-bar"></div>
+    </div>
+    <div class="pop-up">
+        <span>&times;</span>
+        <img src="static/images/school-at1.jpg" alt="">
+    </div>
+    <script>
+        document.querySelectorAll('.description-document img').forEach(img => {
+            img.onclick = () => {
+                document.querySelector('.pop-up').style.display = 'block';
+                document.querySelector('.pop-up img').src = img.getAttribute('src');
+            }
+        });
+        document.querySelector('.pop-up span').onclick = () => {
+            document.querySelector('.pop-up').style.display = 'none';
+        }
+    </script>
+</body>
+
+</html>

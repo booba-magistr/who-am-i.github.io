@@ -1,0 +1,235 @@
+@media (max-width: 1827px) {
+    .about {
+        display: flex;
+        justify-content: space-between;
+        padding-inline: 50px;
+    }
+
+    .profile-photo {
+        display: flex;
+        height: 100%;
+        justify-content: flex-end;
+    }
+
+    .about:hover .text-description {
+        display: block;
+        text-align: justify;
+        font-weight: 550;
+    }
+
+    .worker {
+        display: flex;
+        align-items: center;
+    }
+}
+
+@media (max-width: 1244px) {
+    .about:hover .title-description {
+        font-size: 23px;
+        padding-inline: 20px;
+        margin: 0;
+    }
+
+    .description-logo {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+    }
+
+    .education {
+        justify-content: center;
+        align-items: center;
+    }
+
+    .education:hover .education-logo {
+        display: none;
+    }
+}
+
+@media (max-width: 1082px) {
+    .left-bar {
+        grid-column: 1/2;
+    }
+
+    .content {
+        grid-column: 2/12;
+    }
+
+    .right-bar {
+        grid-column: 12/13;
+    }
+
+    .about:hover .profile-photo {
+        justify-content: center;
+        align-items: center;
+    }
+
+    .about:hover {
+        padding-inline: 20px;
+    }
+
+    .about:hover .profile-photo img {
+        width: 200px;
+    }
+
+    .about:hover .description {
+        width: 100%;
+    }
+
+    .skills,
+    .education,
+    .job {
+        padding-inline: 20px;
+    }
+
+    .description {
+        text-align: left;
+    }
+}
+
+@media (max-width: 685px) {
+    .left-bar {
+        grid-column: 1/2
+    }
+
+    .nav-button {
+        display: block;
+        margin-right: 20px;
+        cursor: pointer;
+        width: 50px;
+        padding-bottom: 3px;
+        height: 50%;
+        font-size: 2em;
+        border: none;
+        border-radius: 10px;
+        background-color: #96D023;
+    }
+
+    .content {
+        grid-column: 2/12;
+    }
+
+    .right-bar {
+        grid-column: 12/13;
+    }
+
+    .drop {
+        display: block;
+    }
+
+    .drop:hover .links {
+        display: block;
+        background-color: #96D023;
+        position: absolute;
+    }
+
+    .drop:hover .links td {
+        color: black;
+        padding: 2px 0;
+    }
+
+    .drop:hover .nav-button {
+        background-color: #59751f;
+    }
+
+    header {
+        justify-content: space-between;
+        align-items: center;
+        padding: 0;
+    }
+
+    .title a {
+        font-size: 1.5em;
+    }
+
+
+    .links {
+        display: none;
+    }
+
+    .description-logo {
+        display: none;
+    }
+
+    .profile-photo {
+        display: none;
+        align-items: center;
+    }
+
+    .header-profile-photo {
+        display: flex;
+    }
+
+    .about:hover {
+        padding-inline: 5px;
+    }
+
+    .about:hover .title-description {
+        font-size: 1.5em;
+    }
+
+    .about:hover .text-description {
+        line-height: 1.2em;
+    }
+
+    .skills,
+    .education,
+    .job {
+        padding-inline: 5px;
+    }
+
+    .worker {
+        display: none;
+    }
+
+    .skills {
+        background-image: url(../images/background-skills1.png);
+        background-size: 100%;
+        background-repeat: no-repeat;
+        background-position: center center;
+    }
+
+    .job {
+        background-image: url(../images/background-worker.png);
+        background-size: 100%;
+        background-repeat: no-repeat;
+        background-position: center center;
+    }
+
+    .education {
+        background-image: url(../images/background-education.png);
+        background-size: 100%;
+        background-repeat: no-repeat;
+        background-position: center center;
+    }
+
+
+    .education-logo {
+        display: none;
+    }
+
+    .education:hover .text-description {
+        line-height: 1.1em;
+    }
+
+    .description-document img {
+        width: 70px;
+        height: 80px;
+    }
+
+    .description-document>img {
+        border: none;
+    }
+
+    footer {
+        padding-inline: 0;
+    }
+
+    .pop-up img {
+        width: 80%;
+        height: 30%;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+    }
+}
